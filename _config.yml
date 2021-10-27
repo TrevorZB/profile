@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Hello. I'm Jami Gibbs."
-email: 'jami0821@gmail.com'
-description: "I'm a software developer and designer from Chicago creating useful things for the web."
+title: "Trevor Zachman-Brockmeyer"
+email: 'trevorzb11@gmail.com'
+description_one: "trevorzb11@gmail.com"
+description_two: "Madison, WI"
 baseurl: "/profile" # the subpath of your site, e.g. /blog
 url: "https://trevorzb.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-twitter_username: 'jamigibbs'
-github_username: 'jamigibbs'
-medium_username: 'blog.jamigibbs.com'
+github_username: 'TrevorZB'
+education: 'Education'
 
 # Build settings
 markdown: kramdown
@@ -58,12 +58,6 @@ pagination:
 
   # Limit how many pagenated pages to create (default: 0, means all)
   limit: 0
-  
-  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
-  sort_field: 'date'
-
-  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
-  sort_reverse: true
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
   category: 'posts'
@@ -92,13 +86,11 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_text: '© 2018 Jami Gibbs'
-admin_name: 'Jami Gibbs'
+admin_name: 'Trevor Zachman-Brockmeyer'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
 
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
+  - { url: '/profile/', text: 'Home' }

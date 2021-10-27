@@ -1,9 +1,9 @@
 ---
+order_id: 2
+jump_id: 'work-history'
 layout: inner
-position: left
-title: 'Phantom'
-date: 2016-02-20 21:15:00
-categories: development design
+position: right
+title: 'Work History'
 tags: Jekyll Sass Bootstrap
 featured_image: '/profile/img/posts/04_phantom-jekyll-1130x864-2x.png'
 project_link: 'https://github.com/jamigibbs'

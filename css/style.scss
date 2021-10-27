@@ -32,6 +32,10 @@ $secondary: #FF7B7B;
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #e9edf0;
   @extend %opensans;
