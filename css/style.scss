@@ -164,11 +164,11 @@ button.btn, input.btn {
 }
 
 .modal-content {
+  width: 90%;
   border-radius: 2px;
 }
 
 .modal-body {
-  margin: 0 20px;
   label {
     font-weight: 300;
     font-size: 22px;
@@ -288,6 +288,7 @@ button.btn, input.btn {
     }
     .excerpt {
       width: 80%;
+      font-size: 20px;
       @include bp-xsmall {
         width: 100%;
       }
@@ -439,3 +440,10 @@ pre {
     .highlight .vg { color: #000000 } /* Name.Variable.Global */
     .highlight .vi { color: #000000 } /* Name.Variable.Instance */
     .highlight .il { color: #0000cf; font-weight: bold } /* Literal.Number.Integer.Long */
+
+
+.left-cs-classes {
+  padding-left: 60px;
+  width: 85%; 
+  float: left;
+}

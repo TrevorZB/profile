@@ -94,3 +94,10 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/profile/', text: 'Home' }
+
+
+#### Collections
+collections:
+  post_items:
+    output: false
+
