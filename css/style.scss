@@ -156,8 +156,14 @@ button.btn, input.btn {
 /*--------------------------------------------------------------
 	2.1 Contact
 --------------------------------------------------------------*/
+@media (max-width: 800px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
 .modal-header {
-  border-bottom: none;
+  background: rgba(251, 251, 251, 1);
   button {
     margin-bottom: 0;
   }
