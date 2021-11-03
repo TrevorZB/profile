@@ -147,6 +147,7 @@ button.btn, input.btn {
   .hero-buttons {
     margin: 0 auto;
     display: table;
+    text-align: center;
     i {
       padding-right: 0.5em;
     }
@@ -156,12 +157,6 @@ button.btn, input.btn {
 /*--------------------------------------------------------------
 	2.1 Contact
 --------------------------------------------------------------*/
-@media (max-width: 800px) {
-  .hide-mobile {
-    display: none;
-  }
-}
-
 .modal-header {
   background: rgba(251, 251, 251, 1);
   button {
@@ -215,6 +210,21 @@ button.btn, input.btn {
 /*--------------------------------------------------------------
 	3.0 Posts
 --------------------------------------------------------------*/
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -20px;
+}
+ul.dashed > li:before {
+  content: "-  ";
+  color: #9eb1bd;
+  text-indent: -20px;
+}
+
 #portfolio .container {
   margin-top: 10em;
   @include bp-xsmall {
@@ -266,6 +276,8 @@ button.btn, input.btn {
     margin-bottom: 2em;
   }
   img.img-responsive {
+    padding-top: 100px;
+    margin-top: -100px;
     @include bp-xsmall {
       display: none;
     }
@@ -274,7 +286,7 @@ button.btn, input.btn {
     }
   }
   .content {
-    margin-top: 5em;
+    margin-top: 2em;
     margin-left: 5em;
     @include bp-xsmall {
       margin-left: 0;
@@ -446,10 +458,3 @@ pre {
     .highlight .vg { color: #000000 } /* Name.Variable.Global */
     .highlight .vi { color: #000000 } /* Name.Variable.Instance */
     .highlight .il { color: #0000cf; font-weight: bold } /* Literal.Number.Integer.Long */
-
-
-.left-cs-classes {
-  padding-left: 60px;
-  width: 85%; 
-  float: left;
-}

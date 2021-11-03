@@ -19,7 +19,7 @@
             {% assign sorted = paginator.posts | sort: 'order_id' %}
 
             {% for post in sorted %}
-              <div class="wow fadeIn" id="{{ post.jump_id }}">
+              <div class="wow fadeIn">
               {% if post.position == "left" %}
                 {% include content-left.html %}
               {% endif %}
