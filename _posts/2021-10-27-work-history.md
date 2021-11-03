@@ -6,7 +6,7 @@ layout: inner
 position: right
 title: 'Work History'
 tags: Python HTML CSS JavaScript
-featured_image: '/profile/img/posts/04_phantom-jekyll-1130x864-2x.png'
+featured_image: '/profile/img/posts/UW-crest-big.png'
 lead_text: "A minimalist Jekyll theme that you're looking at it right now"
 project_link: 'https://github.com/TrevorZB/resources/blob/main/cs_courses.pdf'
 button_icon: 'archive'
