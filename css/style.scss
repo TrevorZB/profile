@@ -210,6 +210,11 @@ button.btn, input.btn {
 /*--------------------------------------------------------------
 	3.0 Posts
 --------------------------------------------------------------*/
+.excerpt-small {
+  font-size: 15px !important;
+  padding-top: 5px;
+}
+
 ul {
   margin: 0;
 }
@@ -286,7 +291,6 @@ ul.dashed > li:before {
     }
   }
   .content {
-    margin-top: 2em;
     margin-left: 5em;
     @include bp-xsmall {
       margin-left: 0;
@@ -305,6 +309,7 @@ ul.dashed > li:before {
       }
     }
     .excerpt {
+      margin-bottom: 2px;
       width: 80%;
       font-size: 20px;
       @include bp-xsmall {
@@ -319,6 +324,7 @@ ul.dashed > li:before {
     }
     .tags, .categories {
       margin: 2em 0;
+      margin-top: 2px;
       span {
         color: #9eb1bd;
         background-color: #ECEFF1;
