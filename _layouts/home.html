@@ -18,16 +18,24 @@
 
             {% assign sorted = paginator.posts | sort: 'order_id' %}
 
-            {% for post in sorted %}
-              <div class="wow fadeIn">
-              {% if post.position == "left" %}
-                {% include content-left.html %}
-              {% endif %}
+            {% assign i = 0 %}
 
-              {% if post.position == "right" %}
+            {% for post in sorted %}
+
+              {% assign value = i | modulo:2 %}
+
+              <div class="wow fadeIn">
+
+              {% if value == 0 %}
+                {% include content-left.html %}
+              {% else %}
                 {% include content-right.html %}
               {% endif %}
+  
               </div>
+
+              {% assign i = i | plus:1 %}
+
             {% endfor %}
 
             {% include pagination.html %}

@@ -1,9 +1,8 @@
 ---
-order_id: 1
+order_id: 1.00
 jump_id: 'education'
 post_id: 'ms-computer-sciences'
 layout: inner
-position: left
 title: 'Education'
 tags: Python C C++ Java MATLAB
 featured_image: '/profile/img/posts/UW-crest.png'
