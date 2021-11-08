@@ -6,7 +6,7 @@ layout: inner
 title: 'Work History'
 featured_image: '/profile/img/posts/UW-crest-big.png'
 
-project_link: 'https://github.com/TrevorZB/resources/blob/main/cs_courses.pdf'
+project_link: 'https://github.com/TrevorZB/resources/tree/main/publications'
 button_icon: 'book'
 button_text: 'View Publications'
 
