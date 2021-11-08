@@ -7,7 +7,7 @@ layout: inner
 title: 'Education'
 tags: Python C C++ Java MATLAB
 featured_image: '/profile/img/posts/UW-crest.png'
-project_link: 'https://github.com/TrevorZB/resources/blob/main/cs_courses.csv'
+project_link: 'https://github.com/TrevorZB/resources/blob/main/cs_courses/cs_courses.csv'
 button_icon: 'archive'
 button_text: 'View CS Courses'
 sub_title: 'M.S. Computer Sciences'
