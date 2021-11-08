@@ -1,5 +1,6 @@
 ---
 order_id: 1.01
+category: education
 post_id: 'bs-biochemistry'
 layout: inner
 title: 'Education'

@@ -2,6 +2,7 @@
 order_id: 4
 jump_id: 'technologies'
 post_id: 'technologies'
+category: technologies
 layout: inner
 position: right
 title: 'Technologies'

@@ -2,6 +2,7 @@
 order_id: 2.00
 jump_id: 'work-history'
 post_id: 'tds_software_engineer'
+category: work_history
 layout: inner
 title: 'Work History'
 tags: Python HTML CSS JavaScript SQL

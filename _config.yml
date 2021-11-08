@@ -95,9 +95,17 @@ enable_nav: true
 nav_item:
   - { url: '/profile/', text: 'Home' }
 
+### Global constants
 
-#### Collections
-collections:
-  post_items:
-    output: false
+### Category names
+education: 'education'
+work_history: 'work_history'
+projects: 'projects'
+technologies: 'technologies'
+
+### Category Icons
+education_button_icon: 'fa fa-graduation-cap fa-lg'
+work_history_button_icon: 'fa fa-suitcase fa-lg'
+projects_button_icon: 'fa fa-code-fork fa-lg'
+technologies_button_icon: 'fa fa-rocket fa-lg'
 

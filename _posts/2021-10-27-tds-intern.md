@@ -1,6 +1,7 @@
 ---
 order_id: 2.01
 post_id: 'tds_intern'
+category: work_history
 layout: inner
 title: 'Work History'
 tags: Python HTML CSS JavaScript SQL

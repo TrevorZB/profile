@@ -16,7 +16,19 @@
   {% endif %}
 
     {% if post.project_link %}
-    <a target="_blank" rel="noopener noreferrer" href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg hide-mobile"><i class="fa fa-{{post.button_icon}} fa-lg"></i>{{post.button_text}}</button></a>
+
+      {% if post.category == site.education %}
+        {% assign button_icon = site.education_button_icon %}
+      {% elsif post.category == site.work_history %}
+        {% assign button_icon = site.work_history_button_icon %}
+      {% elsif post.category == site.projects %}
+        {% assign button_icon = site.projects_button_icon %}
+      {% elsif post.category == site.technologies %}
+        {% assign button_icon = site.technologies_button_icon %}
+      {% endif %}
+
+      <a target="_blank" rel="noopener noreferrer" href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg hide-mobile"><i class="{{ button_icon }}"></i>{{post.button_text}}</button></a>
+  
     {% endif %}
 
     {% if post.tags != empty %}
