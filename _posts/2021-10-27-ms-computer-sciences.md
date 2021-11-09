@@ -1,7 +1,6 @@
 ---
 order_id: 1.00
 jump_id: 'education'
-post_id: 'ms-computer-sciences'
 category: education
 layout: inner
 title: 'Education'

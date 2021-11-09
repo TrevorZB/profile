@@ -1,7 +1,6 @@
 ---
 order_id: 3.00
 category: projects
-post_id: 'bitcoin_miner'
 jump_id: 'projects'
 layout: inner
 title: 'Projects'
