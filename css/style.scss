@@ -217,7 +217,17 @@ button.btn, input.btn {
 .post-image {
   display: flex;
   align-items: center;
+  @include bp-xsmall {
+    display: initial;
+    align-items: initial;
+  }
+  @include bp-small {
+    display: initial;
+    align-items: initial;
+  }
 }
+
+
 
 .excerpt-small {
   font-size: 15px !important;
