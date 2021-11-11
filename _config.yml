@@ -20,7 +20,6 @@ description_two: "Madison, WI"
 baseurl: "/profile" # the subpath of your site, e.g. /blog
 url: "https://trevorzb.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 github_username: 'TrevorZB'
-education: 'Education'
 
 # Build settings
 markdown: kramdown
@@ -107,3 +106,6 @@ education_button_icon: 'fa fa-graduation-cap fa-lg'
 work_history_button_icon: 'fa fa-suitcase fa-lg'
 projects_button_icon: 'fa fa-code-fork fa-lg'
 technologies_button_icon: 'fa fa-rocket fa-lg'
+
+### Section title
+section-title: Education

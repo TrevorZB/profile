@@ -7,20 +7,21 @@
         <div class="row">
           <div class="col-md-12">
 
-            {% if site.section_title != '' %}
-            <h2 class="section-title text-center">{{ site.section_title }}</h2>
-            {% endif %}
-            {% if site.section_subtitle != '' %}
-            <p class="section-subtitle text-center">{{ site.section_subtitle }}</p>
-            {% endif %}
-
-            <div class="break"></div>
-
             {% assign sorted = paginator.posts | sort: 'order_id' %}
 
             {% assign i = 0 %}
 
             {% for post in sorted %}
+
+              {% if post.section_start %}
+                
+                <h2 id="{{ post.jump_id }}" class="section-title text-center">{{ post.section_title }}</h2>
+
+                <p class="section-subtitle text-center">{{ post.section_desc }}</p>
+    
+                <div class="break"></div>
+
+              {% endif %}
 
               {% assign value = i | modulo:2 %}
 

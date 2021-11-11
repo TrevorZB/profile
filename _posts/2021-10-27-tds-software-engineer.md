@@ -1,14 +1,20 @@
 ---
 order_id: 2.00
-jump_id: 'work-history'
+jump_id: work-history
 category: work_history
 layout: inner
 title: 'Work History'
 tags: Python HTML CSS JavaScript SQL
 featured_image: '/profile/img/posts/UW-crest-big.png'
+
+section_start: true
+section_title: 'Work History'
+section_desc: 'Information on my prior employment and the technologies and skills I picked up along the way.'
+
 project_link: 'https://github.com/TrevorZB/resources/blob/main/cs_courses.pdf'
 button_icon: 'archive'
 button_text: 'View Technologies'
+
 sub_title: 'Software Engineer'
 desc_one: 'May 2021 - Present'
 desc_two: 'TDS Telecom: Madison, WI'

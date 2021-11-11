@@ -1,7 +1,6 @@
 <div class="content">
-  <h2 class="title">{{ post.title }}</h2>
+  <h2 class="title">{{ post.sub_title }}</h2>
 
-  <h3>{{ post.sub_title }}</h3>
   {% if post.desc_one %}
     <p class="excerpt">{{ post.desc_one }}</p>
   {% endif %}
@@ -17,15 +16,16 @@
 
     {% if post.project_link %}
 
-      {% if post.category == site.education %}
-        {% assign button_icon = site.education_button_icon %}
-      {% elsif post.category == site.work_history %}
-        {% assign button_icon = site.work_history_button_icon %}
-      {% elsif post.category == site.projects %}
-        {% assign button_icon = site.projects_button_icon %}
-      {% elsif post.category == site.technologies %}
-        {% assign button_icon = site.technologies_button_icon %}
-      {% endif %}
+      {% case post.category %}
+        {% when site.education %}
+          {% assign button_icon = site.education_button_icon %}
+        {% when site.work_history %}
+          {% assign button_icon = site.work_history_button_icon %}
+        {% when site.projects %}
+          {% assign button_icon = site.projects_button_icon %}
+        {% when site.technologies %}
+          {% assign button_icon = site.technologies_button_icon %}
+      {% endcase %}
 
       <a target="_blank" rel="noopener noreferrer" href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg post-button"><i class="{{ button_icon }}"></i>{{post.button_text}}</button></a>
   

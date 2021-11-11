@@ -126,7 +126,7 @@ button.btn, input.btn {
 }
 
 .hero-content {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
   display: table;
   @include bp-medium {
@@ -253,9 +253,11 @@ ul.dashed > li:before {
 }
 
 .section-title {
+  scroll-margin-top: 80px;
   position: relative;
   margin: 0 auto;
   margin-bottom: 1em;
+  font-size: 35px;
   &:after {
     content: '';
     position: absolute;
@@ -290,8 +292,6 @@ ul.dashed > li:before {
     margin-bottom: 2em;
   }
   img.img-responsive {
-    padding-top: 100px;
-    margin-top: -100px;
     @include bp-xsmall {
       display: none;
     }
@@ -304,7 +304,7 @@ ul.dashed > li:before {
     @include bp-xsmall {
       margin-left: 0;
     }
-    h3.title {
+    h2.title {
       position: relative;
       margin-bottom: 1.5em;
       &:after {
