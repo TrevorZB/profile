@@ -317,6 +317,12 @@ ul.dashed > li:before {
     h2.title {
       position: relative;
       margin-bottom: 1.5em;
+      @include bp-xsmall {
+        font-size: 25px;
+      }
+      @include bp-small {
+        font-size: 25px;
+      }
       &:after {
         content: '';
         position: absolute;
