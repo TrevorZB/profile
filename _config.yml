@@ -109,3 +109,7 @@ technologies_button_icon: 'fa fa-rocket fa-lg'
 
 ### Section title
 section-title: Education
+
+### Links
+view_resume_pdf_url: "https://github.com/TrevorZB/resources/blob/main/resumes/trevor_zachman_brockmeyer_resume.pdf"
+download_resume_pdf_url: "https://github.com/TrevorZB/resources/raw/main/resumes/trevor_zachman_brockmeyer_resume.pdf"
