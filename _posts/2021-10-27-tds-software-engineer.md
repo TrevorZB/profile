@@ -11,7 +11,7 @@ section_start: true
 section_title: 'Work History'
 section_desc: 'Information on my prior employment and the technologies and skills I picked up along the way.'
 
-project_link: 'https://github.com/TrevorZB/resources/blob/main/cs_courses.pdf'
+project_link: 'https://github.com/TrevorZB/resources/blob/main/technologies/Trevor_Zachman_Brockmeyer_Technologies_TDS_Software_Engineer.pdf'
 button_icon: 'archive'
 button_text: 'View Technologies'
 
