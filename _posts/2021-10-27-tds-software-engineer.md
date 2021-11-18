@@ -13,7 +13,7 @@ section_desc: 'Information on my prior employment and the technologies and skill
 
 project_link: 'https://github.com/TrevorZB/resources/blob/main/technologies/Trevor_Zachman_Brockmeyer_Technologies_TDS_Software_Engineer.pdf'
 button_icon: 'archive'
-button_text: 'View Technologies'
+button_text: 'View Tech'
 
 sub_title: 'Software Engineer'
 desc_one: 'May 2021 - Present'
