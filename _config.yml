@@ -102,6 +102,7 @@ projects: 'projects'
 technologies: 'technologies'
 
 ### Category Icons
+timeline_button_icon: 'fa fa-calendar fa-lg'
 education_button_icon: 'fa fa-graduation-cap fa-lg'
 work_history_button_icon: 'fa fa-suitcase fa-lg'
 projects_button_icon: 'fa fa-code-fork fa-lg'
@@ -113,3 +114,15 @@ section-title: Education
 ### Links
 view_resume_pdf_url: "https://github.com/TrevorZB/resources/blob/main/resumes/trevor_zachman_brockmeyer_resume.pdf"
 download_resume_pdf_url: "https://github.com/TrevorZB/resources/raw/main/resumes/trevor_zachman_brockmeyer_resume.pdf"
+
+### Collections
+collections:
+  timeline_items:
+    order:
+      - student-researcher.md
+      - bs-biochemistry.md
+      - meriter-huc.md
+      - tds-intern.md
+      - ms-computer-sciences.md
+      - tds-software-engineer-1.md
+      - tds-software-engineer-2.md

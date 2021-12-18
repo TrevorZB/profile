@@ -1,0 +1,22 @@
+<div class="timeline-container">
+
+    <h2 id="timeline-jump" class="section-title text-center">Timeline</h2>
+    <p class="section-subtitle text-center">A brief overview of my educational and professional development.</p>
+    <div class="break"></div>
+
+    <div class="flex-parent">
+        <div class="input-flex-container">
+            {% for timeline_item in site.timeline_items %}
+                <div class="input {{ timeline_item.active }}">
+                    <span data-date="{{ timeline_item.timeline_date }}" data-info="{{ timeline_item.info }}"></span>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="description-flex-container">
+            {% for timeline_item in site.timeline_items %}
+                <p class="{{ timeline_item.active }}">{{timeline_item.desc}}</p>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
