@@ -6,14 +6,16 @@
 
     <div class="flex-parent">
         <div class="input-flex-container">
-            {% for timeline_item in site.timeline_items %}
+            {% assign sorted = site.timeline_items | sort: 'order_id' %}
+
+            {% for timeline_item in sorted %}
                 <div class="input {{ timeline_item.active }}">
                     <span data-date="{{ timeline_item.timeline_date }}" data-info="{{ timeline_item.info }}"></span>
                 </div>
             {% endfor %}
         </div>
         <div class="description-flex-container">
-            {% for timeline_item in site.timeline_items %}
+            {% for timeline_item in sorted %}
                 <p class="{{ timeline_item.active }}">{{timeline_item.desc}}</p>
             {% endfor %}
         </div>

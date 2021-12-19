@@ -118,11 +118,3 @@ download_resume_pdf_url: "https://github.com/TrevorZB/resources/raw/main/resumes
 ### Collections
 collections:
   timeline_items:
-    order:
-      - student-researcher.md
-      - bs-biochemistry.md
-      - meriter-huc.md
-      - tds-intern.md
-      - ms-computer-sciences.md
-      - tds-software-engineer-1.md
-      - tds-software-engineer-2.md
