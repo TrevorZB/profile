@@ -1,4 +1,3 @@
-https://trevorzb.github.io/profile/
 
 ## Phantom for Jekyll
 
